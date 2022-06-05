@@ -5,10 +5,35 @@
  */
 package paquete05;
 
+import java.io.Serializable;
+
 /**
  *
- * @author reroes
+ * @author Leonardo Chuquimarca y José Guerrero
  */
-public class Constructora {
-    
+public class Constructora implements Serializable {
+
+    private String nombreConstructora;
+    private String idEmpresa;
+
+    public Constructora(String a, String b) {
+        nombreConstructora = a;
+        idEmpresa = b;
+    }
+
+    public void establecerNombreConstructora(String c) {
+        nombreConstructora = c;
+    }
+
+    public void establecerIDEmpresa(String d) {
+        idEmpresa = d;
+    }
+
+    public String obtenerNombreConstructora() {
+        return nombreConstructora;
+    }
+
+    public String obtenerIDEmpresa() {
+        return idEmpresa;
+    }
 }

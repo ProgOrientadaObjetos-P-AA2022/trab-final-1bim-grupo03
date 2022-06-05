@@ -5,10 +5,35 @@
  */
 package paquete03;
 
+import java.io.Serializable;
+
 /**
  *
- * @author reroes
+ * @author Leonardo Chuquimarca y José Guerrero
  */
-public class Barrio {
-    
+public class Barrio implements Serializable {
+
+    private String barrio;
+    private String referencia;
+
+    public Barrio(String a, String b) {
+        barrio = a;
+        referencia = b;
+    }
+
+    public void establecerNombreBarrio(String c) {
+        barrio = c;
+    }
+
+    public void establecerReferencia(String d) {
+        referencia = d;
+    }
+
+    public String obtenerNombreBarrio() {
+        return barrio;
+    }
+
+    public String obtenerReferencia() {
+        return referencia;
+    }
 }
