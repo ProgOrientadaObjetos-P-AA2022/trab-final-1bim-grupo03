@@ -1,3 +1,5 @@
+#Leonardo Chuquimarca y José Guerrero
+
 # Trabajo Final del Primer Bimestre - Programación Orientada a Objetos
 
 Necesitamos realizar un sistema de gestión de una inmobiliaria. En la empresa se necesita llevar el registro de constructoras, edificios, departamentos, casas
